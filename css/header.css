@@ -30,6 +30,16 @@
   position: relative;
 }
 
+.header .header-search .header-search__container input[type="text"]::placeholder {
+  color: rgb(15, 20, 25);
+  font-size: 1.5rem;
+}
+
+.header .header-search .header-search__container input[type="text"]:focus {
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+}
+
 .header .header-main .header-main__container {
   width: 95%;
   height: inherit;
