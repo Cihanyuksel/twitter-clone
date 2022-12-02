@@ -1,0 +1,202 @@
+.tweeting-area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgb(234, 232, 232);
+}
+
+.tweeting-area .user-picture {
+  width: 10%;
+  padding: 1rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.tweeting-area .user-picture img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.tweeting-area .user-tweet {
+  width: 80%;
+  height: 100%;
+  flex: 1;
+}
+
+.tweeting-area .user-tweet .user-tweet__select,
+.user-tweet__select2 {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(199, 201, 202);
+  color: var(--main-color);
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 0 2rem;
+}
+
+.tweeting-area .user-tweet .user-tweet-textarea {
+  width: 100%;
+  height: auto;
+  resize: none;
+  font-size: 1.8rem;
+  outline: none;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  z-index: -1;
+}
+
+.tweeting-area .user-tweet .user-tweet-textarea::placeholder {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+
+.tweeting-area .user-tweet .user-tweet__select2 {
+  margin-bottom: 2rem;
+  border: none;
+  padding: 0 1rem;
+}
+.tweeting-area .user-tweet .user-tweet__select2:hover,
+.tweeting-area .user-tweet .user-tweet__select:hover {
+  background-color: rgb(215, 238, 243);
+  transition: var(--general-transition);
+}
+
+.tweeting-area .user-tweet .user-tweet__border {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1.5px solid rgb(239, 243, 244);
+}
+
+.user-tweet .user-tweet__bottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  height: auto;
+}
+
+.user-tweet .user-tweet__bottom .user-tweet__bottom___icon {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.user-tweet .user-tweet__bottom .user-tweet__bottom___action {
+  width: 40%;
+  min-width: 15rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.user-tweet .user-tweet__bottom .user-tweet__bottom___action button {
+  color: #fff;
+  font-weight: bold;
+  min-width: 3.6rem;
+  min-height: 3.6rem;
+  background-color: rgb(29, 155, 240);
+  opacity: 0.5;
+  border-radius: 9999px;
+  font-size: 1.5rem;
+  padding: 0 1.6rem;
+}
+
+.thread .thread-area {
+  width: 100%;
+  height: 100%;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.thread .thread-area .tweet-contexts {
+  height: auto;
+}
+
+.thread .thread-area .tweet-contexts .tweet-contexts__card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem;
+}
+
+.thread .thread-area .tweet-contexts .tweet-contexts__card:hover {
+  background-color: rgba(232, 229, 229, 0.4);
+  transition: var(--general-transition);
+}
+
+.tweet-contexts__card .card-image img:hover {
+  border: 2px solid rgb(213, 209, 209);
+}
+
+.tweet-contexts__card .card-image img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tweet-contexts__card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-size: 1.4rem;
+  gap: 0.8rem;
+}
+
+.tweet-contexts__card .card-body .card-body__user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-contexts__card .card-body .card-body__user .card-body__user___info {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.tweet-contexts__card .card-body .card-body__user .card-body__user___info .card-body__user___name {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.tweet-contexts__card .card-body .card-body__user .card-body__user___info .card-body__user___username {
+  color: rgb(83, 100, 113);
+}
+
+.tweet-contexts__card .card-body .card-body__image {
+  width: 95%;
+}
+.tweet-contexts__card .card-body .card-body__image img {
+  width: 100%;
+  background-color: red;
+  max-height: calc(100vh - 8.5rem);
+  border-radius: 2rem;
+}
+
+.tweet-contexts__card .card-body .card-body__icon {
+  display: flex;
+  color: #536471d9;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.tweet-contexts__card .card-body .card-body__icon .comment-icon,
+.tweet-contexts__card .card-body .card-body__icon .retweet-icon,
+.tweet-contexts__card .card-body .card-body__icon .liked-icon,
+.tweet-contexts__card .card-body .card-body__icon .share-icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15%;
+}

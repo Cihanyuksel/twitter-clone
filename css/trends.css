@@ -1,0 +1,53 @@
+.trends .trends-area {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f9f9;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+
+.trends .trends-area .trends-area__title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.trends .trends-area .trends-area__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+}
+
+.trends .trends-area .trends-area__items:hover {
+  background-color: rgba(232, 229, 229, 0.535);
+}
+
+.trends .trends-area .trends-area__items .content {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+
+.trends .trends-area .trends-area__items .content-count,
+.trends .trends-area .trends-area__items .title {
+  color: rgb(83, 100, 113);
+  font-size: 1.3rem;
+}
+
+.trends .trends-area .trends-area__items button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trends .trends-area .trends-area__items button:hover {
+  background-color: var(---main--color-alpha);
+}
