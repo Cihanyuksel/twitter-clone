@@ -8,7 +8,7 @@
 
 .tweeting-area .user-picture {
   width: 10%;
-  padding: 1rem;
+  margin-right: 2rem;
   justify-content: flex-end;
   align-items: flex-start;
   display: inline-flex;
@@ -200,8 +200,4 @@
   display: flex;
   justify-content: space-evenly;
   width: 15%;
-}
-
-.thread {
-  /* background-color: gray; */
 }
