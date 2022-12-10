@@ -20,6 +20,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
 .tweeting-area .user-tweet {
   width: 80%;
   height: 100%;
@@ -199,4 +200,8 @@
   display: flex;
   justify-content: space-evenly;
   width: 15%;
+}
+
+.thread {
+  /* background-color: gray; */
 }

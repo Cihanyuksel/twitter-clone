@@ -1,0 +1,56 @@
+@media only screen and (max-width: 976px) {
+  .tweeting-area {
+    margin-top: 2rem;
+  }
+
+  .tweeting-area .user-picture {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .trends {
+    display: none;
+    width: 0;
+  }
+
+  .thread {
+    flex: 1;
+  }
+
+  .header {
+    width: 81%;
+  }
+  .header-search {
+    border-right: 1px solid var(--border-color);
+  }
+
+  .search-link-icon {
+    display: block;
+  }
+
+  .header .header-main,
+  .header .header-search {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .tweeting-area {
+    margin: 3rem 1rem 0 1rem;
+  }
+
+  .search-input input[type="text"] {
+    padding: 1.2rem 3rem;
+  }
+
+  .header-search {
+    display: none;
+  }
+  .header .header-main {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+}

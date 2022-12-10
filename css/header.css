@@ -69,3 +69,7 @@
   outline: none;
   background-color: #eff3f4;
 }
+
+.search-link-icon {
+  display: none;
+}
